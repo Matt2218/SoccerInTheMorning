@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class SoccerInTheMorning extends ActionBarActivity {
@@ -11,7 +12,7 @@ public class SoccerInTheMorning extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soccer_in_the_morning);
+        setContentView(R.layout.main_menu);
     }
 
 
@@ -35,5 +36,9 @@ public class SoccerInTheMorning extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openTournamentScreen(View view) {
+        setContentView(R.layout.tournament_screen);
     }
 }

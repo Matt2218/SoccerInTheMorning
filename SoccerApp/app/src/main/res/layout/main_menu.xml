@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="Menu"
         android:id="@+id/button"
+        android:onClick="openTournamentScreen"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textColor="#ff008c05" />
