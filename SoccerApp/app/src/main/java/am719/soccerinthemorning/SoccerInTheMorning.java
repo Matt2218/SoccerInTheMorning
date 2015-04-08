@@ -44,163 +44,91 @@ public class SoccerInTheMorning extends ActionBarActivity {
     }
 
     public void chicago(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Chicago Fire");
+        setTeamScreen(view, "Chicago Fire");
     }
 
     public void colorado(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Colorado Rapids");
+        setTeamScreen(view, "Colorado Rapids");
     }
 
     public void columbus(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Columbus Crew SC");
-
+        setTeamScreen(view, "Columbus Crew SC");
     }
 
     public void dc(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("DC United");
+        setTeamScreen(view, "DC United");
     }
 
     public void dallas(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("FC Dallas");
+        setTeamScreen(view, "FC Dallas");
     }
 
     public void houston(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Houston Dynamo");
+        setTeamScreen(view, "Houston Dynamo");
     }
 
     public void losAngeles(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("L.A. Galaxy");
+        setTeamScreen(view, "L.A. Galaxy");
     }
 
     public void montreal(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Montreal Impact");
+        setTeamScreen(view, "Montreal Impact");
     }
 
     public void newEngland(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("New England Revolution");
+        setTeamScreen(view, "New England Revolution");
     }
 
     public void newYorkCity(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("New York City FC");
+        setTeamScreen(view, "New York City FC");
     }
 
     public void newYork(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("New York Red Bulls");
+        setTeamScreen(view, "New York Red Bulls");
     }
 
     public void orlando(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Orlando City SC");
+        setTeamScreen(view, "Orlando City SC");
     }
 
     public void philadelphia(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Philadelphia Union");
+        setTeamScreen(view, "Philadelphia Union");
     }
 
     public void portland(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Portland Timbers");
+        setTeamScreen(view, "Portland Timbers");
     }
 
     public void saltLake(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Real Salt Lake");
+        setTeamScreen(view, "Real Salt Lake");
     }
 
     public void sanJose(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("San Jose Earthquakes");
+        setTeamScreen(view, "San Jose Earthquakes");
     }
 
     public void seattle(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Seattle Sounders FC");
+        setTeamScreen(view, "Seattle Sounders FC");
     }
 
     public void kansasCity(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Sporting Kansas City");
+        setTeamScreen(view, "Sporting Kansas City");
     }
 
     public void toronto(View view) {
-        setContentView(R.layout.team_info);
-        TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Toronto FC");
+        setTeamScreen(view, "Toronto FC");
     }
 
     public void vancouver(View view) {
+        setTeamScreen(view, "Vancouver Whitecaps FC");
+    }
+
+    public void setTeamScreen(View view, String teamName) {
         setContentView(R.layout.team_info);
         TextView team;
-        team=new TextView(this);
-        team=(TextView)findViewById(R.id.teamNameView);
-        team.setText("Vancouver Whitecaps FC");
+        team = new TextView(this);
+        team = (TextView)findViewById(R.id.teamNameView);
+        team.setText(teamName);
     }
+
 }
