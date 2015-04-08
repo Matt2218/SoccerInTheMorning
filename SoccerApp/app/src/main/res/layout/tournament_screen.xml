@@ -25,32 +25,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button2"
             android:onClick="chicago"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/chicago" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button3"
             android:onClick="colorado"
             android:layout_alignParentEnd="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:background="@drawable/colorado" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button4"
             android:onClick="columbus"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/columbus" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -61,32 +61,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button5"
             android:onClick="dc"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/dallas" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button6"
             android:onClick="dallas"
             android:layout_alignParentEnd="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:background="@drawable/dc" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button7"
             android:onClick="houston"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/houston" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -97,32 +97,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button8"
             android:onClick="losAngeles"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/kansas_city" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button9"
             android:onClick="montreal"
             android:layout_alignParentEnd="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:background="@drawable/los_angeles" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button10"
             android:onClick="newEngland"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/montreal" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -133,32 +133,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button11"
             android:onClick="newYorkCity"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/new_england" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button12"
             android:onClick="newYork"
             android:layout_alignParentEnd="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:background="@drawable/new_york" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button13"
             android:onClick="orlando"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/new_york_city" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -169,32 +169,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button14"
             android:onClick="philadelphia"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/orlando" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button15"
             android:onClick="portland"
             android:layout_alignParentEnd="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:background="@drawable/philadelphia" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button16"
             android:onClick="saltLake"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/portland" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -205,32 +205,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button17"
             android:onClick="sanJose"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/salt_lake" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button18"
             android:onClick="seattle"
             android:layout_alignParentEnd="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:background="@drawable/san_jose" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button19"
             android:onClick="kansasCity"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/seattle" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -241,25 +241,25 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button20"
             android:onClick="toronto"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="false"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="50dp" />
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/toronto" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
             android:id="@+id/button22"
             android:onClick="vancouver"
             android:layout_alignParentEnd="true"
             android:layout_gravity="right"
             android:layout_centerVertical="true"
-            android:layout_marginRight="50dp" />
+            android:layout_marginRight="50dp"
+            android:background="@drawable/vancouver" />
     </RelativeLayout>
 
 </LinearLayout>
