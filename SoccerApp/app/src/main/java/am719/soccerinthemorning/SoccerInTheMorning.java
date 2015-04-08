@@ -41,4 +41,84 @@ public class SoccerInTheMorning extends ActionBarActivity {
     public void openTournamentScreen(View view) {
         setContentView(R.layout.tournament_screen);
     }
+
+    public void chicago(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void colorado(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void columbus(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void dc(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void dallas(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void houston(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void losAngeles(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void montreal(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void newEngland(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void newYorkCity(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void newYork(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void orlando(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void philadelphia(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void portland(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void saltLake(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void sanJose(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void seattle(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void kansasCity(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void toronto(View view) {
+        setContentView(R.layout.team_info);
+    }
+
+    public void vancouver(View view) {
+        setContentView(R.layout.team_info);
+    }
 }
