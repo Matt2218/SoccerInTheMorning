@@ -155,15 +155,8 @@ public class SoccerInTheMorning extends ActionBarActivity {
         logo.setImageResource(imagePath);
     }
 
-    ////////////////////////////////////////////////////////
-    //DO YOUR WORK HERE
-
-
-
-
-
-
-
-    ////////////////////////////////////////////////////////
+    public void goBackToTournamentScreen(View view) {
+        setContentView(R.layout.tournament_screen);
+    }
 
 }
