@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 
 public class SoccerInTheMorning extends ActionBarActivity {
@@ -44,91 +45,125 @@ public class SoccerInTheMorning extends ActionBarActivity {
     }
 
     public void chicago(View view) {
-        setTeamScreen(view, "Chicago Fire");
+        int imagePath = R.drawable.chicago;
+        setTeamScreen(view, "Chicago Fire", imagePath);
+
     }
 
     public void colorado(View view) {
-        setTeamScreen(view, "Colorado Rapids");
+        int imagePath = R.drawable.colorado;
+        setTeamScreen(view, "Colorado Rapids", imagePath);
     }
 
     public void columbus(View view) {
-        setTeamScreen(view, "Columbus Crew SC");
+        int imagePath = R.drawable.columbus;
+        setTeamScreen(view, "Columbus Crew SC", imagePath);
     }
 
     public void dc(View view) {
-        setTeamScreen(view, "DC United");
+        int imagePath = R.drawable.dc;
+        setTeamScreen(view, "DC United", imagePath);
     }
 
     public void dallas(View view) {
-        setTeamScreen(view, "FC Dallas");
+        int imagePath = R.drawable.dallas;
+        setTeamScreen(view, "FC Dallas", imagePath);
     }
 
     public void houston(View view) {
-        setTeamScreen(view, "Houston Dynamo");
+        int imagePath = R.drawable.houston;
+        setTeamScreen(view, "Houston Dynamo", imagePath);
     }
 
     public void losAngeles(View view) {
-        setTeamScreen(view, "L.A. Galaxy");
+        int imagePath = R.drawable.los_angeles;
+        setTeamScreen(view, "L.A. Galaxy", imagePath);
     }
 
     public void montreal(View view) {
-        setTeamScreen(view, "Montreal Impact");
+        int imagePath = R.drawable.montreal;
+        setTeamScreen(view, "Montreal Impact", imagePath);
     }
 
     public void newEngland(View view) {
-        setTeamScreen(view, "New England Revolution");
+        int imagePath = R.drawable.new_england;
+        setTeamScreen(view, "New England Revolution", imagePath);
     }
 
     public void newYorkCity(View view) {
-        setTeamScreen(view, "New York City FC");
+        int imagePath = R.drawable.new_york_city;
+        setTeamScreen(view, "New York City FC", imagePath);
     }
 
     public void newYork(View view) {
-        setTeamScreen(view, "New York Red Bulls");
+        int imagePath = R.drawable.new_york;
+        setTeamScreen(view, "New York Red Bulls", imagePath);
     }
 
     public void orlando(View view) {
-        setTeamScreen(view, "Orlando City SC");
+        int imagePath = R.drawable.orlando;
+        setTeamScreen(view, "Orlando City SC", imagePath);
     }
 
     public void philadelphia(View view) {
-        setTeamScreen(view, "Philadelphia Union");
+        int imagePath = R.drawable.philadelphia;
+        setTeamScreen(view, "Philadelphia Union", imagePath);
     }
 
     public void portland(View view) {
-        setTeamScreen(view, "Portland Timbers");
+        int imagePath = R.drawable.portland;
+        setTeamScreen(view, "Portland Timbers", imagePath);
     }
 
     public void saltLake(View view) {
-        setTeamScreen(view, "Real Salt Lake");
+        int imagePath = R.drawable.salt_lake;
+        setTeamScreen(view, "Real Salt Lake", imagePath);
     }
 
     public void sanJose(View view) {
-        setTeamScreen(view, "San Jose Earthquakes");
+        int imagePath = R.drawable.san_jose;
+        setTeamScreen(view, "San Jose Earthquakes", imagePath);
     }
 
     public void seattle(View view) {
-        setTeamScreen(view, "Seattle Sounders FC");
+        int imagePath = R.drawable.seattle;
+        setTeamScreen(view, "Seattle Sounders FC", imagePath);
     }
 
     public void kansasCity(View view) {
-        setTeamScreen(view, "Sporting Kansas City");
+        int imagePath = R.drawable.kansas_city;
+        setTeamScreen(view, "Sporting Kansas City", imagePath);
     }
 
     public void toronto(View view) {
-        setTeamScreen(view, "Toronto FC");
+        int imagePath = R.drawable.toronto;
+        setTeamScreen(view, "Toronto FC", imagePath);
     }
 
     public void vancouver(View view) {
-        setTeamScreen(view, "Vancouver Whitecaps FC");
+        int imagePath = R.drawable.vancouver;
+        setTeamScreen(view, "Vancouver Whitecaps FC", imagePath);
     }
 
-    public void setTeamScreen(View view, String teamName) {
+    public void setTeamScreen(View view, String teamName, int imagePath) {
         setContentView(R.layout.team_info);
         TextView team;
         team = new TextView(this);
         team = (TextView)findViewById(R.id.teamNameView);
         team.setText(teamName);
+        ImageView logo= (ImageView) findViewById(R.id.logoView);
+        logo.setImageResource(imagePath);
     }
+
+    ////////////////////////////////////////////////////////
+    //DO YOUR WORK HERE
+
+
+
+
+
+
+
+    ////////////////////////////////////////////////////////
 
 }
